@@ -9,7 +9,7 @@ def hide_card_number():
     hidden_code = ""
 
     #Retrieve the card number of the user
-    card_num = input('Enter your credit card number: ') #Retrieve the card number of the user
+    card_num = input('Enter your credit card number: ')
 
     #Add the digits into the empty string as * and overwrite the last * by the digits of the card's numbers
     for digit in card_num:
